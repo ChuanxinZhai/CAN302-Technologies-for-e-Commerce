@@ -1,0 +1,29 @@
+#big_profile{
+    height: 400px;
+    margin-top: 60px;
+    margin-left: 50px;
+    margin-right: 20px;
+    /*background-color: #2b542c;*/
+}
+#profile_details{
+    height: 400px;
+    margin-top: 60px;
+    /*background-color: #4cae4c;*/
+}
+
+#profile_details p{
+    color: black;
+    padding: 20px 0;
+}
+
+.button{
+    background-color: #6d7fcc;
+    border: none;
+    color: white;
+    margin-top: 10px;
+    margin-left: -10px;
+}
+
+.info{
+    float: right;
+}

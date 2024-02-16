@@ -1,0 +1,143 @@
+/*@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');*/
+* {
+    box-sizing: border-box;
+}
+
+.tooltip {
+    display: none;
+    width: 350px;
+    height: 15px;
+    position: absolute;
+    top: 60px;
+    font-size: 14px;
+    color: palevioletred;
+    animation-name: errtips;
+    animation-duration: 0.5s
+}
+
+@keyframes errtips {
+    10% {
+        transform: translateY(1px);
+    }
+    20% {
+        transform: translateY(-1px);
+    }
+    30% {
+        transform: translateY(1px);
+    }
+    40% {
+        transform: translateY(-1px);
+    }
+    50% {
+        transform: translateY(1px);
+    }
+    60% {
+        transform: translateY(-1px);
+    }
+    70% {
+        transform: translateY(1px);
+    }
+    80% {
+        transform: translateY(-1px);
+    }
+    90% {
+        transform: translateY(1px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #6d7fcc;
+    color: #fff;
+    font-family: 'Muli', sans-serif;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 20px 40px;
+    border-radius: 5px;
+}
+
+.container h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.container a {
+    text-decoration: none;
+    color: lightblue;
+}
+
+.btn {
+    cursor: pointer;
+    width: 100%;
+    background: lightblue;
+    padding: 15px;
+    font-family: inherit;
+    font-size: 16px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.btn:focus {
+    outline: 0;
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
+
+.text {
+    margin-top: 30px;
+}
+
+.form-control {
+    position: relative;
+    margin: 20px 0 40px;
+    width: 300px;
+}
+
+.form-control input {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px #fff solid;
+    display: block;
+    width: 100%;
+    padding: 15px 0;
+    font-size: 18px;
+    color: #fff;
+}
+
+.form-control input:focus, .form-control input:valid {
+    outline: 0;
+    border-bottom-color: lightblue;
+}
+
+.form-control label {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    /* 元素不对事件做出反应。 */
+    pointer-events: none;
+}
+
+.form-control label span {
+    display: inline-block;
+    font-size: 18px;
+    min-width: 5px;
+    transition: 0.2s ease-in-out;
+}
+
+.form-control input:focus + label span, .form-control input:valid + label span {
+    color: lightblue;
+    transform: translateY(-30px);
+}
