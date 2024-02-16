@@ -1,0 +1,48 @@
+#user-icon{
+    width: 40px;
+    height: 40px;
+    margin-top: 4px;
+}
+#user-name{
+    margin-right: 10px;
+    line-height: 50px;
+}
+#user-info{
+    width: 300px;
+    height: 48px;
+}
+#options{
+    width: 80px;
+    height: 60px;
+    border: 1px grey solid;
+    border-radius: 3px;
+    position: absolute;
+    top: 40px;
+    left: -19%;
+    background-color: white;
+    transition: display 2s;
+    display: none;
+}
+
+.options{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 30px;
+}
+
+#sidebar ul li a{
+    padding: 20px !important;
+}
+
+.a_active{
+    background-color: #596DC5;
+    box-shadow: 1px 0px 10px 0px rgba(0,0,0,0.5);
+}
+
+.download:hover{
+    background-color: #596DC5;
+    box-shadow: 10px 3px 10px 0px rgba(0,0,0,0.5);
+}
+
