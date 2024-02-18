@@ -1,5 +1,5 @@
 # CAN302-Technologies-for-e-Commerce
-
+It is only a demonstration for you to reference and do not copy the design, report and codes, which behaviour will lead to Academic Integrity.
 ### A1：design an e-commerce website
 It is a detailed design documentation, including User Interface and Database Structure.
 
