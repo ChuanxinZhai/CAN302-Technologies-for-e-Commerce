@@ -16,7 +16,7 @@ Gain 87.7% marks.
 ![image](https://github.com/ChuanxinZhai/CAN302-Technologies-for-e-Commerce/assets/94314784/719890f3-aad8-4349-b99a-fbf073270cb4)
 
 
-## Partial screenshots of the web system:
+## Screenshots of partial functions of the web system:
 
 Login
 ![image](https://github.com/user-attachments/assets/8cf640cc-2527-4e0b-bf81-4190ff12bbac)
